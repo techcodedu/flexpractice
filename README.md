@@ -257,7 +257,7 @@ The `column h2` and `column p` elements will have a specific font size, margin, 
 
  a transparent background, orange border, white text color, and will change border color and text color on hover.
 
-### Step 11: Styling the Card Section
+### Step 11: Finally,Styling the Card Section
 Next, let's style the card section. Add the following CSS rules:
 
 ```css
@@ -289,45 +289,6 @@ Next, let's style the card section. Add the following CSS rules:
     line-height: 1.8;
 }
 ```
-
-The `card-container` class will have a semi-transparent white background, rounded corners, shadow, and will display its children using flexbox. The `card-container img` element will have a specific width, height, and rounded corners. The `card-container h3` and `card-container p` elements will have a specific font size, margin, and line height.
-
-### Step 12: Adding Media Queries
-Finally, let's add some media queries to make the design responsive. Add the following CSS rules:
-
-```css
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
-        padding-top: 40px;
-    }
-    nav ul {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    main {
-        flex-direction: column;
-        align-items: center;
-        padding-top: 20px;
-    }
-    .column {
-        width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
-    }
-    .cta-button {
-        width: 100%;
-    }
-    .card-container {
-        width: 100%;
-    }
-}
-```
-
-These media queries will change the layout for devices with a screen width of 768px or less.
 
 ## Conclusion
 Congratulations! You have successfully created a website landing page using HTML and CSS. You learned how to use the flexbox and positioning properties, and how to create a responsive design using media queries.
