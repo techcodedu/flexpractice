@@ -30,7 +30,6 @@ project-folder/
 ````
 
 Start by creating a new HTML file called `index.html`. This file will contain the structure of your website. Copy the following HTML code into your `index.html` file.
-
 ```html
 <!DOCTYPE html>
 <html lang="en">
