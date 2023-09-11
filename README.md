@@ -30,6 +30,7 @@ Start by creating a new HTML file called `index.html`. This file will contain th
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/websitewithflex.css" />
   </head>
 
   <body>
@@ -56,7 +57,7 @@ Start by creating a new HTML file called `index.html`. This file will contain th
           <button class="cta-button">Button</button>
         </section>
         <section class="column">
-          <article class="card">
+          <article class="card-container">
             <img
               src="https://images.pexels.com/photos/16457381/pexels-photo-16457381/free-photo-of-city-dawn-sunset-eiffel-tower.jpeg"
               alt="Card image"
@@ -67,6 +68,7 @@ Start by creating a new HTML file called `index.html`. This file will contain th
     </div>
   </body>
 </html>
+
 
 ```
 
@@ -249,21 +251,20 @@ Next, let's style the card section. Add the following CSS rules:
 
 ```css
 .card-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
-    padding: 40px;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
-    margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  padding: 10px;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow */
+  margin: 20px 0;
 }
 
 .card-container img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .card-container h3 {
