@@ -2,6 +2,9 @@
 
 # Building a Website Landing Page Using HTML and CSS
 
+![Flexbox Website Screenshot](https://github.com/techcodedu/flexpractice/blob/main/flexboxwebsite.png)
+
+
 ## Introduction
 In this exercise, you will learn how to build a website landing page using HTML and CSS. You will create the different parts of the website such as the header, navigation, and main content. The design will heavily use CSS flexbox and positioning properties.
 
