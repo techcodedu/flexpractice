@@ -291,4 +291,4 @@ Next, let's style the card section. Add the following CSS rules:
 ```
 
 ## Conclusion
-Congratulations! You have successfully created a website landing page using HTML and CSS. You learned how to use the flexbox and positioning properties, and how to create a responsive design using media queries.
+Congratulations! You have successfully created a website landing page using HTML and CSS. You learned how to use the flexbox and positioning properties.
