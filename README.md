@@ -29,8 +29,6 @@ project-folder/
 └── index.html
 ````
 
-In markdown, you use the `├──`, `└──`, and `│` characters to represent the branches of the tree structure. Additionally, you use a combination of spaces and the `└──` character to indicate the final item in a branch.
-
 Start by creating a new HTML file called `index.html`. This file will contain the structure of your website. Copy the following HTML code into your `index.html` file.
 
 ```html
